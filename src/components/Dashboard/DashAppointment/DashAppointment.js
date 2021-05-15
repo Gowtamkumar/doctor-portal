@@ -15,7 +15,7 @@ const DashAppointment = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/appointmentByDate', {
+        fetch('https://rocky-fjord-09696.herokuapp.com/appointmentByDate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ data: selectedDate.toDateString(), email: LoggedInUser.email })

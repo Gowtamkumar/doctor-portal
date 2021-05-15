@@ -14,7 +14,7 @@ Modal.setAppElement('#root')
 const ToDayAppointments = ({ modalIsOpen, closeModal, id }) => {
     const [appointment, setAppointment] = useState({})
     useEffect(() => {
-        fetch(`http://localhost:5000/appointment/${id}`)
+        fetch(`https://rocky-fjord-09696.herokuapp.com/appointment/${id}`)
             .then(res => res.json())
             .then(data => setAppointment(data))
     }, [])

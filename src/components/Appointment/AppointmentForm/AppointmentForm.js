@@ -26,7 +26,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
         data.time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
         console.log(data.time)
 
-        fetch('http://localhost:5000/addAppointment', {
+        fetch('https://rocky-fjord-09696.herokuapp.com/addAppointment', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

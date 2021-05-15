@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const TotalAppointment = () => {
     const [totalAppointment, setTotalAppointment] = useState({})
     useEffect(() => {
-        fetch('http://localhost:5000/totalappointment')
+        fetch('https://rocky-fjord-09696.herokuapp.com/totalappointment')
         .then(res=> res.json())
         .then(data=> setTotalAppointment(data))
     }, [])

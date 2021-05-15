@@ -8,7 +8,7 @@ import TotalDoctors from '../TotalDoctors/TotalDoctors';
 const Dashboard = () => {
     const [toDayAppointment, settoDayAppointment] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/todayappointment?created=' + new Date().toDateString())
+        fetch('https://rocky-fjord-09696.herokuapp.com/todayappointment?created=' + new Date().toDateString())
             .then(res => res.json())
             .then(data => settoDayAppointment(data))
     }, [])

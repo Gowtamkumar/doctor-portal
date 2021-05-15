@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const TotalDoctors = () => {
     const [doctors, setDoctors] = useState({})
     useEffect(() => {
-        fetch('http://localhost:5000/doctors')
+        fetch('https://rocky-fjord-09696.herokuapp.com/doctors')
         .then(res=>res.json())
         .then(data => setDoctors(data))
     }, [])

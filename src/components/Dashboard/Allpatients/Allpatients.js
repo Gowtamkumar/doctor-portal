@@ -7,7 +7,7 @@ const Allpatients = () => {
     console.log(patients)
 
     useEffect(() => {
-        fetch('http://localhost:5000/allpatients')
+        fetch('https://rocky-fjord-09696.herokuapp.com/allpatients')
             .then(res => res.json())
             .then(data => setPatient(data))
     }, [])
