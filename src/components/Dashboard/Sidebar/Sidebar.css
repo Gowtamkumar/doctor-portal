@@ -1,0 +1,8 @@
+.list-group-items {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #f1f5f8;
+    text-decoration: none;
+    background-color: #13D0CE;
+}

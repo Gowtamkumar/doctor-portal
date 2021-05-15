@@ -1,0 +1,14 @@
+.appointment-container{
+    margin-top:200px;
+    background-color: #3A4154;
+   background-image: url('../../../images/header-container-gb.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-height: 405px;
+   background-position: center center;
+}
+
+.appointment-container img{
+    height: 550px;
+    transform: translateY(-145px)
+}

@@ -1,0 +1,20 @@
+.footer-contaier{
+    background-image: url('../../../images/header-container-gb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.list-group-items {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.copyright-container{
+    margin: 120px 0px 10px 0px;
+}
