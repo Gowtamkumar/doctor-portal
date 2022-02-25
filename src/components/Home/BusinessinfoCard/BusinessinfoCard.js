@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './BusinessinfoCard.css'
+
 const BusinessinfoCard = ({ info }) => {
     return (
         <div className="col-md-4 text-light info-card">
