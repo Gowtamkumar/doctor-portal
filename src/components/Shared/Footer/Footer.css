@@ -1,20 +1,28 @@
-.footer-contaier{
+.footer_contaier{
     background-image: url('../../../images/header-container-gb.png');
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding: 25px 50px 75px 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
-
-.list-group-items {
-    position: relative;
-    display: block;
-    padding: .5rem 1rem;
-    color: #212529;
-    text-decoration: none;
-    background-color: #fff;
+.footer_link ul li a{
+    text-decoration: none
+}
+.footer_link ul{
+    padding: 0px;
+    margin: 0rem;
+}
+.footer_link ul li{
+    list-style: none;
+    padding: 0px;
+    line-height: 28px;
 }
 
-.copyright-container{
-    margin: 120px 0px 10px 0px;
-}
+
+/* .copyright-container{
+    border-top: 2px solid block;
+    padding: 10px;
+} */

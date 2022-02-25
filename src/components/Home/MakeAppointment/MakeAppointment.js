@@ -1,12 +1,12 @@
 import React from 'react';
-import dentis from '../../../images/dentisremovebg.png'
+import doctorImg from '../../../images/doctor_PNG.png'
 import './MakeAppointment.css'
 const MakeAppointment = () => {
     return (
         <section className="appointment-container">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={dentis} alt="" className="img-fluid" />
+                    <img src={doctorImg} alt="" className="img-fluid" />
                 </div>
                 <div className="col-md-6 pt-5 text-light">
                     <h4 className="text-light">APPOINTMENT</h4>

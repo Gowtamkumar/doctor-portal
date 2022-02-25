@@ -19,7 +19,7 @@ const servicesData = [
 ]
 const Services = () => {
     return (
-        <section className="services-container mt-5">
+        <section className="py-5 bg-light">
             <div className="text-center pt-5">
                 <h5>Our Services</h5>
                 <h2>Services We Provide</h2>
